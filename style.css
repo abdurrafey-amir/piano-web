@@ -1,0 +1,29 @@
+body{
+    width: 75vw;
+    margin: auto;
+    background: #142F44;
+}
+
+#text {
+    color: white;
+}
+  
+#piano{
+    height: 400px;
+    background: wheat;
+}
+  
+.key{
+  height: 400px;
+  width: 14.2857142857%;
+  float: left;
+  border: 5px solid black;
+  border-right: none;
+  background: white;
+  text-align: center;
+  padding-top: 300px;
+}
+  
+#B{
+  border-right: 5px solid black;
+}
