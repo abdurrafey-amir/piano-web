@@ -5,10 +5,12 @@ const synth = new Tone.Synth().toDestination()
 function playnote(note) {
     synth.triggerAttackRelease(`${note}4`, '8n')
     document.getElementById(note).style.background = '#142F44'
+    document.getElementById(note).style.color = 'white'
     document.getElementById('body').style.background = '#F6683B'
     setTimeout(() => {
         document.getElementById(note).style.background = 'white'
         document.getElementById('body').style.background = '#142F44'
+        document.getElementById(note).style.color = 'black'
     }, 200)
 }
 
